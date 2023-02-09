@@ -1,24 +1,13 @@
+import NavBar from './NavBar';
+
 const Header = () => {
   return (
-    <header className="container bg-slate-200">
-      <h1>데브몰로고</h1>
-      <nav>
-        <form action="">
-          <input type="text" placeholder="상품을 검색해보세요!" />
-          <button>검색</button>
-        </form>
-      </nav>
-
-      <button>장바구니</button>
-      <button>마이페이지</button>
-
-      {/* 
-      
-      <button>마이페이지</button>
-      <button>판매자 센터</button> */}
+    <header className="container relative mx-auto bg-slate-200 px-1 py-3 ">
+      <h1 className=" font-logo text-2xl">
+        <a href="#">DEV MALL</a>
+      </h1>
+      <NavBar />
     </header>
-
-    // <header><h1>데브몰로고 판매자센타</h1></header>
   );
 };
 

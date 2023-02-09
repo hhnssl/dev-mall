@@ -6,7 +6,7 @@ const PageTemplate = ({ children }) => {
     <>
       <Header />
 
-      <main>{children}</main>
+      <main className="container px-1">{children}</main>
 
       <Footer />
     </>
