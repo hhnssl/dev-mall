@@ -14,7 +14,8 @@ function App() {
   return (
     <div className="App">
       {/* <MainPage /> */}
-      <ProductDetailPage />
+      {/* <ProductDetailPage /> */}
+      <CartPage />
     </div>
   );
 }
