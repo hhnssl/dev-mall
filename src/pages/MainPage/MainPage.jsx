@@ -1,10 +1,11 @@
 import PageTemplate from '../../template/PageTemplate';
 import ProductList from '../../components/ProductList/ProductList';
+import Banner from '../../components/Banner/Banner';
 
 const MainPage = () => {
   return (
     <PageTemplate>
-      <article>배너</article>
+      <Banner />
       <ProductList />
       {/* <ul>
         <li>

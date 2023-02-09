@@ -2,9 +2,11 @@ import ProductItem from '../ProductItem/ProductItem';
 
 const ProductList = () => {
   return (
-    <ul>
-      <ProductItem />
-    </ul>
+    <section className="">
+      <ul className="flex flex-wrap">
+        <ProductItem />
+      </ul>
+    </section>
   );
 };
 
