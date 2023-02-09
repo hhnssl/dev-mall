@@ -1,10 +1,10 @@
-import ProductItem from '../ProductItem/ProductItem';
+import ProductListItem from '../ProductListItem/ProductListItem';
 
 const ProductList = () => {
   return (
     <section className="">
       <ul className="flex flex-wrap">
-        <ProductItem />
+        <ProductListItem />
       </ul>
     </section>
   );

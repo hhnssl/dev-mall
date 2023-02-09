@@ -13,7 +13,8 @@ import ProductListPage from './pages/ProductListPage/ProductListPage';
 function App() {
   return (
     <div className="App">
-      <MainPage />
+      {/* <MainPage /> */}
+      <ProductDetailPage />
     </div>
   );
 }
