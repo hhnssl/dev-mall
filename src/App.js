@@ -1,5 +1,6 @@
 import React from 'react';
-// import { Counter } from './features/counter/Counter';
+import { Route, Routes } from 'react-router-dom';
+
 import './App.css';
 
 import CartPage from './pages/CartPage/CartPage';
@@ -13,9 +14,13 @@ import ProductListPage from './pages/ProductListPage/ProductListPage';
 function App() {
   return (
     <div className="App">
-      {/* <MainPage /> */}
-      {/* <ProductDetailPage /> */}
-      <CartPage />
+      <Routes>
+        <Route path="/" element={<MainPage />} />
+        <Route path="/login" element={<LoginPage />} />
+        {/* <Route path="/" element={<CartPage />} />
+        <Route path="/" element={<ProductDetailPage />} />
+        <Route path="/" element={<ProductListPage />} /> */}
+      </Routes>
     </div>
   );
 }
