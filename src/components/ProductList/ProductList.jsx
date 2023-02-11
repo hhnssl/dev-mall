@@ -15,6 +15,7 @@ const ProductList = () => {
             productName={item.product_name}
             price={item.price}
             storeName={item.store_name}
+            productId={item.product_id}
           />
         ))}
       </ul>

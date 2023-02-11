@@ -1,6 +1,6 @@
 const Footer = () => {
   return (
-    <footer className=" container mx-auto bg-slate-700 px-1">
+    <footer className=" container mx-auto bg-slate-700 px-4">
       <nav>
         <a href="#">호두샵 소개</a>
         <a href="#">이용약관</a>

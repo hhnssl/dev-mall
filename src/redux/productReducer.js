@@ -1,3 +1,5 @@
+// 메인 초기 데이터 로딩
+
 import { createSlice } from '@reduxjs/toolkit';
 
 const productSlice = createSlice({

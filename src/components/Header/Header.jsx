@@ -1,10 +1,11 @@
 import NavBar from './NavBar';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   return (
-    <header className="container relative mx-auto bg-slate-200 px-1 py-3 ">
+    <header className="container relative mx-auto bg-slate-200 px-4 py-3 ">
       <h1 className=" font-logo text-2xl">
-        <a href="#">DEV MALL</a>
+        <Link to="/">DEV MALL</Link>
       </h1>
       <NavBar />
     </header>

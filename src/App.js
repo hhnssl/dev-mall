@@ -9,7 +9,6 @@ import LoginPage from './pages/LoginPage/LoginPage';
 import MainPage from './pages/MainPage/MainPage';
 import PaymentPage from './pages/PaymentPage/PaymentPage';
 import ProductDetailPage from './pages/ProductDetailPage/ProductDetailPage';
-import ProductListPage from './pages/ProductListPage/ProductListPage';
 
 function App() {
   return (
@@ -17,9 +16,8 @@ function App() {
       <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/login" element={<LoginPage />} />
-        {/* <Route path="/" element={<CartPage />} />
-        <Route path="/" element={<ProductDetailPage />} />
-        <Route path="/" element={<ProductListPage />} /> */}
+        <Route path="/cart" element={<CartPage />} />
+        <Route path="/products/:productId" element={<ProductDetailPage />} />
       </Routes>
     </div>
   );

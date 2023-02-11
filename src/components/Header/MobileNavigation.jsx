@@ -12,7 +12,7 @@ const MobileNavigation = () => {
     <nav className=" md:hidden">
       <HiMenu
         onClick={() => setOpenMenu(!openMenu)}
-        className="absolute top-3 right-0 h-auto w-[30px] cursor-pointer"
+        className="absolute top-3 right-4 h-auto w-[30px] cursor-pointer"
       />
       {openMenu && <NavLinks />}
     </nav>
